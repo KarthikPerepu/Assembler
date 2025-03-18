@@ -1,0 +1,10 @@
+start:
+    addu r1,r2,0x3;
+    nop;
+    b skp;
+    nop;
+    b 0x1;
+    nop;
+    b start
+skp:
+    hlt
